@@ -61,7 +61,7 @@ def extract_flipkart_prices(url):
             'product_name': product_name.strip(),
             'current_price': current_price.strip(),
             'original_price': original_price.strip(),
-            'discount': discount.strip()
+            'discount_percentage': discount.strip()
         }
 
 def main():
